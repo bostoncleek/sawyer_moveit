@@ -1,0 +1,1 @@
+rosrun moveit_kinematics create_ikfast_moveit_plugin.py --search_mode=OPTIMIZE_MAX_JOINT --srdf_filename=sawyer.srdf --robot_name_in_srdf=sawyer --moveit_config_pkg=sawyer_moveit_config sawyer right_arm sawyer_right_arm_ikfast_plugin base right_hand /home/bostoncleek/manip_ws/src/sawyer_right_arm_ikfast_plugin/src/sawyer_right_arm_ikfast_solver.cpp
