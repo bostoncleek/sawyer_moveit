@@ -16,13 +16,17 @@
 
   <!-- Load universal robot description format (URDF) FIXME when composable URDF -->
   <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="$(find sawyer_description)/urdf/sawyer.urdf.xacro"/>
+  <!-- <param if="$(arg load_robot_description)" name="$(arg robot_description)" textfile="$(find sawyer_description)/urdf/test_sawyer.urdf"/> -->
 
   <!-- The semantic description that corresponds to the URDF -->
-  <param name="robot_description_semantic"
-      command="$(find xacro)/xacro --inorder $(find sawyer_moveit_config)/srdf/sawyer.srdf.xacro
+  <!-- <param name="robot_description_semantic"
+      command="$(find xacro)/xacro $(find sawyer_moveit_config)/srdf/sawyer.srdf.xacro
           electric_gripper:=$(arg electric_gripper)
           tip_name:=$(arg tip_name)
-          controller_box:=$(arg controller_box)"/>
+          controller_box:=$(arg controller_box)"/> -->
+
+  <param name="robot_description_semantic"
+      command="$(find xacro)/xacro $(find sawyer_moveit_config)/srdf/test_sawyer3.srdf"/>
 
   <!-- Load updated joint limits (override information from URDF) -->
   <group ns="$(arg robot_description)_planning">
