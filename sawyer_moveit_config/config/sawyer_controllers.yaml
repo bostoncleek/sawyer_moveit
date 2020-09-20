@@ -11,4 +11,10 @@ controller_list:
       - right_j4
       - right_j5
       - right_j6
-      - right_gripper_l_finger_joint
+      # - right_gripper_l_finger_joint
+  # - name: sawyer_gripper
+  #   action_ns: gripper_action
+  #   type: GripperCommand
+  #   default: true
+  #   joints:
+  #     - right_gripper_l_finger_joint
