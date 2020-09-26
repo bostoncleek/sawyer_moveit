@@ -8,8 +8,6 @@ Panels:
         - /MotionPlanning1
         - /MotionPlanning1/Scene Robot1
         - /MotionPlanning1/Planned Path1
-        - /TF1/Frames1
-        - /RobotModel1
       Splitter Ratio: 0.5491071343421936
     Tree Height: 190
   - Class: rviz/Help
@@ -78,68 +76,11 @@ Visualization Manager:
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
-          axle_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           base:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          base_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          bb2_mesh:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bb2_optical_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          bb2_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          chassis_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          controller_enclosure:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_cover_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_laser:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_left_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_lights_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_right_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_rocker_link:
+          controller_box:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -153,50 +94,12 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          imu_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          left_side_cover_link:
+          pedestal:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          mid_mount:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          mount_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_cover_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_laser:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_left_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_lights_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_right_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_rocker_link:
+          pedestal_feet:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -311,11 +214,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          right_side_cover_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           right_torso_itb:
             Alpha: 1
             Show Axes: false
@@ -329,25 +227,11 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          top_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           torso:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          velodyne_mesh:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          velodyne_scan:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
         Loop Animation: true
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
@@ -376,7 +260,7 @@ Visualization Manager:
         Show Workspace: false
         Start State Alpha: 1
         Start State Color: 0; 255; 0
-      Planning Scene Topic: /move_group/monitored_planning_scene
+      Planning Scene Topic: /planning_scene
       Robot Description: robot_description
       Scene Geometry:
         Scene Alpha: 1
@@ -393,68 +277,11 @@ Visualization Manager:
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
-          axle_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           base:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          base_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          bb2_mesh:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bb2_optical_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          bb2_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          chassis_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          controller_enclosure:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_cover_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_laser:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_left_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_lights_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_right_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          front_rocker_link:
+          controller_box:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -468,50 +295,12 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          imu_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          left_side_cover_link:
+          pedestal:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          mid_mount:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          mount_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_cover_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_laser:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_left_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_lights_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_right_wheel_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          rear_rocker_link:
+          pedestal_feet:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -626,11 +415,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          right_side_cover_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           right_torso_itb:
             Alpha: 1
             Show Axes: false
@@ -644,260 +428,16 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          top_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           torso:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          velodyne_mesh:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          velodyne_scan:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
         Robot Alpha: 0.5
         Show Robot Collision: false
         Show Robot Visual: true
       Value: true
       Velocity_Scaling_Factor: 0.1
-    - Class: rviz/TF
-      Enabled: true
-      Frame Timeout: 15
-      Frames:
-        All Enabled: false
-        axle_link:
-          Value: false
-        base:
-          Value: true
-        base_link:
-          Value: true
-        bb2_mesh:
-          Value: false
-        bb2_optical_link:
-          Value: false
-        bb2_origin:
-          Value: false
-        chassis_link:
-          Value: false
-        controller_box:
-          Value: false
-        controller_enclosure:
-          Value: false
-        front_cover_link:
-          Value: false
-        front_laser:
-          Value: false
-        front_left_wheel_link:
-          Value: false
-        front_lights_link:
-          Value: false
-        front_right_wheel_link:
-          Value: false
-        front_rocker_link:
-          Value: false
-        head:
-          Value: false
-        head_camera:
-          Value: false
-        imu_link:
-          Value: false
-        left_side_cover_link:
-          Value: false
-        mid_mount:
-          Value: false
-        mount_link:
-          Value: false
-        odom:
-          Value: true
-        pedestal:
-          Value: false
-        pedestal_feet:
-          Value: false
-        rear_cover_link:
-          Value: false
-        rear_laser:
-          Value: false
-        rear_left_wheel_link:
-          Value: false
-        rear_lights_link:
-          Value: false
-        rear_right_wheel_link:
-          Value: false
-        rear_rocker_link:
-          Value: false
-        right_arm_base_link:
-          Value: false
-        right_arm_itb:
-          Value: false
-        right_connector_plate_base:
-          Value: false
-        right_connector_plate_mount:
-          Value: false
-        right_electric_gripper_base:
-          Value: false
-        right_gripper_base:
-          Value: false
-        right_gripper_l_finger:
-          Value: false
-        right_gripper_l_finger_tip:
-          Value: false
-        right_gripper_r_finger:
-          Value: false
-        right_gripper_r_finger_tip:
-          Value: false
-        right_gripper_tip:
-          Value: false
-        right_hand:
-          Value: false
-        right_hand_camera:
-          Value: false
-        right_l0:
-          Value: false
-        right_l1:
-          Value: false
-        right_l1_2:
-          Value: false
-        right_l2:
-          Value: false
-        right_l2_2:
-          Value: false
-        right_l3:
-          Value: false
-        right_l4:
-          Value: false
-        right_l4_2:
-          Value: false
-        right_l5:
-          Value: false
-        right_l6:
-          Value: false
-        right_side_cover_link:
-          Value: false
-        right_torso_itb:
-          Value: false
-        right_wrist:
-          Value: false
-        screen:
-          Value: false
-        top_link:
-          Value: false
-        torso:
-          Value: false
-        velodyne_mesh:
-          Value: false
-        velodyne_scan:
-          Value: false
-      Marker Alpha: 1
-      Marker Scale: 1
-      Name: TF
-      Show Arrows: true
-      Show Axes: true
-      Show Names: true
-      Tree:
-        odom:
-          base_link:
-            chassis_link:
-              axle_link:
-                front_rocker_link:
-                  front_left_wheel_link:
-                    {}
-                  front_right_wheel_link:
-                    {}
-                rear_rocker_link:
-                  rear_left_wheel_link:
-                    {}
-                  rear_right_wheel_link:
-                    {}
-              front_cover_link:
-                {}
-              front_laser:
-                {}
-              front_lights_link:
-                {}
-              imu_link:
-                {}
-              left_side_cover_link:
-                {}
-              rear_cover_link:
-                {}
-              rear_laser:
-                {}
-              rear_lights_link:
-                {}
-              right_side_cover_link:
-                {}
-              top_link:
-                {}
-            mid_mount:
-              bb2_mesh:
-                bb2_origin:
-                  bb2_optical_link:
-                    {}
-              controller_enclosure:
-                {}
-              velodyne_mesh:
-                velodyne_scan:
-                  {}
-            mount_link:
-              base:
-                controller_box:
-                  {}
-                pedestal:
-                  {}
-                pedestal_feet:
-                  {}
-                right_arm_base_link:
-                  right_l0:
-                    head:
-                      head_camera:
-                        {}
-                      screen:
-                        {}
-                    right_l1:
-                      right_l1_2:
-                        {}
-                      right_l2:
-                        right_l2_2:
-                          {}
-                        right_l3:
-                          right_l4:
-                            right_arm_itb:
-                              {}
-                            right_l4_2:
-                              {}
-                            right_l5:
-                              right_hand_camera:
-                                {}
-                              right_l6:
-                                right_hand:
-                                  right_gripper_base:
-                                    right_connector_plate_base:
-                                      right_connector_plate_mount:
-                                        right_electric_gripper_base:
-                                          right_gripper_l_finger:
-                                            right_gripper_l_finger_tip:
-                                              {}
-                                          right_gripper_r_finger:
-                                            right_gripper_r_finger_tip:
-                                              {}
-                                    right_gripper_tip:
-                                      {}
-                              right_wrist:
-                                {}
-                    right_torso_itb:
-                      {}
-                torso:
-                  {}
-      Update Interval: 0
-      Value: true
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
@@ -918,7 +458,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: odom
+    Fixed Frame: base
     Frame Rate: 30
   Name: root
   Tools:
@@ -930,7 +470,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 5.618581295013428
+      Distance: 1.5200393199920654
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -938,17 +478,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -1.8094440698623657
-        Y: 1.580128788948059
-        Z: 1.6391334156651283e-07
+        X: -0.2373247742652893
+        Y: 0.2515344023704529
+        Z: 4.470405201573158e-08
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.3897973895072937
+      Pitch: 0.31979745626449585
       Target Frame: base
-      Yaw: 1.2017793655395508
+      Yaw: 0.5417795777320862
     Saved: ~
 Window Geometry:
   Displays:
@@ -966,5 +506,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1652
-  X: 309
-  Y: 88
+  X: 268
+  Y: 27
